@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Validador de E-mail</title>
+  </head>
+  <body>
+    <div class="container centralizar ">
+      <h1 class="text-center">Validador de E-mail</h1>
+      <div class="text-center" id="msg"></div><!--Div onde será exibida a mensagem de validação-->
+      <form id="formulario">
+        <div class="form-group">
+          <label for="email"><strong>E-mail:</strong></label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Insira seu melhor e-mail" required autofocus>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
+        </div>
+      </form>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
